@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crypto Directory: Coins vs. Tokens</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* No custom CSS needed as all styling is handled by Tailwind CSS utilities. */
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col items-center justify-center py-12 px-4 font-sans">
+
+    <div class="container mx-auto max-w-6xl">
+        <!-- Header Section -->
+        <header class="text-center mb-16">
+            <h1 class="text-6xl font-extrabold text-gray-900 mb-6 leading-tight">The Crypto Directory</h1>
+            <p class="text-2xl text-gray-600 max-w-2xl mx-auto">
+                Navigate the digital asset landscape by understanding the fundamental distinction between native blockchain <span class="font-semibold text-indigo-600">Coins</span> and platform-based <span class="font-semibold text-emerald-600">Tokens</span>.
+            </p>
+        </header>
+
+        <!-- Main Content - Two Choices: Coins and Tokens -->
+        <div class="flex flex-col md:flex-row gap-10 justify-center items-stretch">
+
+            <!-- Coins Section -->
+            <div class="bg-white rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center max-w-md w-full transform transition-all duration-500 hover:scale-105 hover:shadow-3xl border-t-8 border-indigo-600">
+                <h2 class="text-5xl font-bold text-indigo-700 mb-8">Coins</h2>
+                <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                    Coins are the native cryptocurrencies of their own independent blockchain. They are used to pay for transaction fees, secure the network through staking or mining, and often serve as the primary medium of exchange within their ecosystem. They are fundamental to the blockchain's operation.
+                </p>
+                <div class="mb-10 w-full">
+                    <h3 class="text-3xl font-semibold text-gray-800 mb-5">Key Examples:</h3>
+                    <ul class="space-y-4 text-xl text-gray-600 list-disc list-inside text-left mx-auto max-w-xs">
+                        <li><span class="font-medium text-gray-900">Bitcoin (BTC):</span> The pioneer cryptocurrency, digital gold.</li>
+                        <li><span class="font-medium text-gray-900">Ethereum (ETH):</span> Powers the leading smart contract platform.</li>
+                        <li><span class="font-medium text-gray-900">Solana (SOL):</span> Known for its high transaction speed and low costs.</li>
+                        <li><span class="font-medium text-gray-900">Cardano (ADA):</span> A research-driven proof-of-stake blockchain.</li>
+                    </ul>
+                </div>
+                <button class="mt-auto bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-10 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 text-xl">
+                    Discover More Coins
+                </button>
+            </div>
+
+            <!-- Tokens Section -->
+            <div class="bg-white rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center max-w-md w-full transform transition-all duration-500 hover:scale-105 hover:shadow-3xl border-t-8 border-emerald-600">
+                <h2 class="text-5xl font-bold text-emerald-700 mb-8">Tokens</h2>
+                <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                    Tokens are digital assets built on an existing blockchain platform, rather than having their own. They can represent a wide range of utilities, assets, or even voting rights within a decentralized application (dApp). They leverage the security and infrastructure of their host blockchain.
+                </p>
+                <div class="mb-10 w-full">
+                    <h3 class="text-3xl font-semibold text-gray-800 mb-5">Key Examples:</h3>
+                    <ul class="space-y-4 text-xl text-gray-600 list-disc list-inside text-left mx-auto max-w-xs">
+                        <li><span class="font-medium text-gray-900">Tether (USDT):</span> A stablecoin pegged to the U.S. Dollar.</li>
+                        <li><span class="font-medium text-gray-900">Chainlink (LINK):</span> Decentralized oracle network for smart contracts.</li>
+                        <li><span class="font-medium text-gray-900">Uniswap (UNI):</span> Governance token for the popular DEX.</li>
+                        <li><span class="font-medium text-gray-900">Decentraland (MANA):</span> Utility token for a virtual reality platform.</li>
+                    </ul>
+                </div>
+                <button class="mt-auto bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 px-10 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 text-xl">
+                    Explore More Tokens
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="mt-20 text-center text-gray-500 text-sm">
+        <p>&copy; 2023 The Crypto Directory. All rights reserved. Information provided for educational purposes only.</p>
+    </footer>
+
+</body>
+</html>
