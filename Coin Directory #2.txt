@@ -1,0 +1,610 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Coin Directory - A-Z Index</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Optional: A simple active state for A-Z links, requires JS for scroll spy */
+        /* For static page, hover is sufficient, or could be manually applied to current letter */
+        .az-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-800 to-indigo-900 py-12 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl font-extrabold text-white mb-4 leading-tight drop-shadow-md">Coin Directory</h1>
+            <p class="text-xl text-blue-200 font-light">Explore a Hand Selected A-Z list of coins from the cryptocurrency world, from legacy coins to Newly released coins.</p>
+        </div>
+    </header>
+
+    <!-- A-Z Navigation -->
+    <nav class="sticky top-0 bg-gray-800 py-4 shadow-xl z-10 border-b border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-3">
+                <a href="#coins-A" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">A</a>
+                <a href="#coins-B" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">B</a>
+                <a href="#coins-C" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">C</a>
+                <a href="#coins-D" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">D</a>
+                <a href="#coins-E" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">E</a>
+                <a href="#coins-F" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">F</a>
+                <a href="#coins-G" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">G</a>
+                <a href="#coins-H" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">H</a>
+                <a href="#coins-I" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">I</a>
+                <a href="#coins-J" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">J</a>
+                <a href="#coins-K" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">K</a>
+                <a href="#coins-L" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">L</a>
+                <a href="#coins-M" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">M</a>
+                <a href="#coins-N" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">N</a>
+                <a href="#coins-O" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">O</a>
+                <a href="#coins-P" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">P</a>
+                <a href="#coins-Q" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">Q</a>
+                <a href="#coins-R" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">R</a>
+                <a href="#coins-S" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">S</a>
+                <a href="#coins-T" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">T</a>
+                <a href="#coins-U" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">U</a>
+                <a href="#coins-V" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">V</a>
+                <a href="#coins-W" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">W</a>
+                <a href="#coins-X" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">X</a>
+                <a href="#coins-Y" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">Y</a>
+                <a href="#coins-Z" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">Z</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content - Coin Listings -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <!-- Section A -->
+        <section id="coins-A" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'A'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">ALEO</h3>
+                    <p class="text-gray-300 mb-4 text-sm">ALEO mining is restricted to GPU and ASIC miners but it also offers PoS so you can buy ALEO and stake it in your wallet to earn rewards.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Hardware: GPU, ASIC</li>
+                        <li>Algorithm: zkSNARK</li>
+                        <li>Current Supply: 344 Million</li>
+                        <li>Remaining: 1.3 Billion</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Alephium</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Alephium is great for people who like simple. The ASIC miners are simple to setup and use. The User Interface and experience is as straight forward and well made as you can get currently.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Hardware: ASIC</li>
+                        <li>Algorithm: Blake3</li>
+                        <li>Current Supply: 105 Million*</li>
+                        <li>Remaining: 800 Million</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Austrian Philharmonic</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Europe's best-selling bullion coin, featuring instruments of the Vienna Philharmonic Orchestra. Available in gold, silver, and platinum.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Austria</li>
+                        <li>Metal: Gold (.9999 fine), Silver (.999 fine), Platinum (.9995 fine)</li>
+                        <li>Denomination: Various (e.g., 100 Euro for 1 oz gold)</li>
+                        <li>Common Years: 1989-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section B -->
+        <section id="coins-B" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'B'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">British Sovereign</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A classic gold coin of the United Kingdom, first minted in 1817. Famous for its St. George and the Dragon design.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United Kingdom</li>
+                        <li>Metal: Gold (.9167 fine)</li>
+                        <li>Denomination: £1 GBP (Face Value)</li>
+                        <li>Common Years: 1817-Present</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Buffalo Nickel</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A copper-nickel five-cent coin struck by the U.S. Mint from 1913 to 1938, featuring a Native American on the obverse and a buffalo on the reverse.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United States</li>
+                        <li>Metal: Copper-Nickel (75% Cu, 25% Ni)</li>
+                        <li>Denomination: 5 Cents USD</li>
+                        <li>Common Years: 1913-1938</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Belgian Franc</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The former currency of Belgium before the Euro. Coins were minted in various denominations and metals, often featuring kings or national symbols.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Belgium</li>
+                        <li>Metal: Various (e.g., Cupro-Nickel, Silver, Gold)</li>
+                        <li>Denomination: Various Francs</li>
+                        <li>Common Years: 1832-2001 (pre-Euro)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section C -->
+        <section id="coins-C" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'C'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Canadian Maple Leaf</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A series of bullion coins issued by the Royal Canadian Mint. Available in gold, silver, platinum, and palladium, known for their high purity.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Canada</li>
+                        <li>Metal: Gold (.9999 fine), Silver (.9999 fine), Platinum (.9995 fine)</li>
+                        <li>Denomination: Various (e.g., $50 CAD for 1 oz gold)</li>
+                        <li>Common Years: 1979-Present (Gold)</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Chinese Panda</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A series of gold and silver bullion coins issued by the People's Republic of China. Designs feature a new panda image each year (except 2001 & 2002).</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: China</li>
+                        <li>Metal: Gold (.999 fine), Silver (.999 fine)</li>
+                        <li>Denomination: Various (e.g., 500 Yuan for 30g gold)</li>
+                        <li>Common Years: 1982-Present</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Corinthian Stater</h3>
+                    <p class="text-gray-300 mb-4 text-sm">An ancient Greek silver coin minted in Corinth and its colonies, famous for its Pegasus design on the obverse and Athena on the reverse.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Ancient Greece (Corinth)</li>
+                        <li>Metal: Silver</li>
+                        <li>Denomination: Stater</li>
+                        <li>Common Years: c. 5th - 4th Century BC</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section D -->
+        <section id="coins-D" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'D'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Double Eagle</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A gold coin of the United States with a face value of $20. Minted from 1849 to 1933, it's one of the most iconic U.S. gold coins.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United States</li>
+                        <li>Metal: Gold (.900 fine)</li>
+                        <li>Denomination: $20 USD</li>
+                        <li>Common Years: 1849-1933</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Denarius (Roman)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A standard silver coin of ancient Rome, first issued c. 211 BC. It was the principal coin of the Roman Republic and early Empire.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Roman Empire</li>
+                        <li>Metal: Silver</li>
+                        <li>Denomination: Denarius</li>
+                        <li>Common Years: c. 211 BC - 3rd Century AD</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section E -->
+        <section id="coins-E" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'E'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Ecu (French)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A series of gold and silver coins minted in France from the 13th to the 18th century. The name 'écu' means 'shield', referring to the design.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: France</li>
+                        <li>Metal: Gold, Silver</li>
+                        <li>Denomination: Ecu</li>
+                        <li>Common Years: c. 1266-1793</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section F -->
+        <section id="coins-F" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'F'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">French Franc</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The former currency of France, replaced by the Euro. French Franc coins were issued in various denominations, often featuring Marianne or historical figures.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: France</li>
+                        <li>Metal: Various (e.g., Bronze, Nickel, Silver)</li>
+                        <li>Denomination: Francs, Centimes</li>
+                        <li>Common Years: 1795-2002 (pre-Euro)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section G -->
+        <section id="coins-G" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'G'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Gold Krugerrand</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The first modern gold bullion coin, issued by South Africa. Widely recognized and traded globally due to its consistent weight and purity.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: South Africa</li>
+                        <li>Metal: Gold (.9167 fine)</li>
+                        <li>Denomination: Non-denominated (value based on gold content)</li>
+                        <li>Common Years: 1967-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section H -->
+        <section id="coins-H" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'H'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Half Dollar (US)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A 50-cent coin of the United States, with various designs throughout its history, including the Walking Liberty and Kennedy Half Dollars.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United States</li>
+                        <li>Metal: Silver (Historically), Copper-Nickel</li>
+                        <li>Denomination: 50 Cents USD</li>
+                        <li>Common Years: 1794-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section I -->
+        <section id="coins-I" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'I'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Indian Head Cent</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A one-cent coin of the United States, minted from 1859 to 1909. It features a depiction of Lady Liberty wearing a Native American headdress.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United States</li>
+                        <li>Metal: Copper-Nickel (1859-1864), Bronze (1864-1909)</li>
+                        <li>Denomination: 1 Cent USD</li>
+                        <li>Common Years: 1859-1909</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section J -->
+        <section id="coins-J" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'J'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Japanese Yen (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The official currency of Japan. Modern Yen coins are issued in denominations from 1 Yen to 500 Yen, featuring various flora and fauna designs.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Japan</li>
+                        <li>Metal: Various (e.g., Aluminum, Bronze, Nickel-Brass)</li>
+                        <li>Denomination: Yen</li>
+                        <li>Common Years: 1949-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section K -->
+        <section id="coins-K" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'K'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Korean Won (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The currency of South Korea. Won coins are issued in denominations from 1 Won to 500 Won, featuring traditional Korean symbols and historical figures.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: South Korea</li>
+                        <li>Metal: Various (e.g., Aluminum, Brass, Cupro-Nickel)</li>
+                        <li>Denomination: Won</li>
+                        <li>Common Years: 1966-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section L -->
+        <section id="coins-L" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'L'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Liberty Head Nickel</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A five-cent coin of the United States, minted from 1883 to 1912. It features a depiction of Lady Liberty on the obverse and a Roman numeral 'V' on the reverse.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United States</li>
+                        <li>Metal: Copper-Nickel (75% Cu, 25% Ni)</li>
+                        <li>Denomination: 5 Cents USD</li>
+                        <li>Common Years: 1883-1912</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section M -->
+        <section id="coins-M" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'M'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Mexican Peso (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The modern currency of Mexico. Peso coins are issued in various denominations, featuring national symbols and historical figures.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Mexico</li>
+                        <li>Metal: Various (e.g., Bi-metallic, Bronze, Steel)</li>
+                        <li>Denomination: Pesos, Centavos</li>
+                        <li>Common Years: 1992-Present (New Peso)</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Mercury Dime</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A ten-cent coin of the United States, minted from 1916 to 1945. It features a winged Liberty head, often mistaken for the Roman god Mercury.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United States</li>
+                        <li>Metal: Silver (.900 fine)</li>
+                        <li>Denomination: 10 Cents USD</li>
+                        <li>Common Years: 1916-1945</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section N -->
+        <section id="coins-N" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'N'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">New Zealand Dollar (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The currency of New Zealand. Dollar coins are issued in various denominations, featuring native birds and Queen Elizabeth II.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: New Zealand</li>
+                        <li>Metal: Various (e.g., Copper-Plated Steel, Nickel-Plated Steel)</li>
+                        <li>Denomination: Cents, Dollars</li>
+                        <li>Common Years: 1967-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section O -->
+        <section id="coins-O" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'O'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Old Spanish Dollar (Piece of Eight)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A silver coin of 8 reales, widely circulated in the Americas and Asia during the 17th to 19th centuries. It was the basis for many modern currencies.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Spanish Empire</li>
+                        <li>Metal: Silver (.917 fine)</li>
+                        <li>Denomination: 8 Reales</li>
+                        <li>Common Years: 16th-19th Century</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section P -->
+        <section id="coins-P" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'P'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Peruvian Sol (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The official currency of Peru since 1991. Sol coins are issued in various denominations, featuring the national coat of arms and historical sites.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Peru</li>
+                        <li>Metal: Various (e.g., Brass, Cupro-Nickel, Bi-metallic)</li>
+                        <li>Denomination: Soles, Céntimos</li>
+                        <li>Common Years: 1991-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Q -->
+        <section id="coins-Q" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'Q'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Quarter (US)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A 25-cent coin of the United States, famously featuring George Washington on the obverse. Various commemorative designs have been issued.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United States</li>
+                        <li>Metal: Silver (Historically), Copper-Nickel</li>
+                        <li>Denomination: 25 Cents USD</li>
+                        <li>Common Years: 1796-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section R -->
+        <section id="coins-R" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'R'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Russian Ruble (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The official currency of the Russian Federation. Modern Ruble coins feature the national emblem and various denominations.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Russia</li>
+                        <li>Metal: Various (e.g., Steel, Brass-plated Steel, Cupro-Nickel)</li>
+                        <li>Denomination: Rubles, Kopecks</li>
+                        <li>Common Years: 1992-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section S -->
+        <section id="coins-S" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'S'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">South African Krugerrand</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The world's first modern bullion coin, introduced in 1967. Famous for its distinctive copper-gold alloy and springbok design.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: South Africa</li>
+                        <li>Metal: Gold (.9167 fine), Silver (.999 fine), Platinum (.9995 fine)</li>
+                        <li>Denomination: Non-denominated (gold), 1 Rand (silver)</li>
+                        <li>Common Years: 1967-Present</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Standing Liberty Quarter</h3>
+                    <p class="text-gray-300 mb-4 text-sm">A 25-cent coin of the United States, minted from 1916 to 1930, featuring Lady Liberty standing with a shield and olive branch.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United States</li>
+                        <li>Metal: Silver (.900 fine)</li>
+                        <li>Denomination: 25 Cents USD</li>
+                        <li>Common Years: 1916-1930</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section T -->
+        <section id="coins-T" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'T'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Turkish Lira (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The official currency of Turkey. Modern Lira coins feature Mustafa Kemal Atatürk, the founder of the Republic of Turkey.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Turkey</li>
+                        <li>Metal: Various (e.g., Cupro-Nickel, Brass, Copper)</li>
+                        <li>Denomination: Kuruş, Lira</li>
+                        <li>Common Years: 2005-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section U -->
+        <section id="coins-U" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'U'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Ugandan Shilling (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The currency of Uganda. Shilling coins feature various wildlife and national symbols, reflecting Uganda's rich biodiversity.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Uganda</li>
+                        <li>Metal: Various (e.g., Cupro-Nickel, Brass)</li>
+                        <li>Denomination: Shillings</li>
+                        <li>Common Years: 1966-Present (various series)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section V -->
+        <section id="coins-V" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'V'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Vatican Euro Coins</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Euro coins issued by the Vatican City State. These highly collectible coins feature the effigy of the reigning Pope, making them unique among Euro issues.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Vatican City State</li>
+                        <li>Metal: Bi-metallic, Nordic Gold, Copper-Plated Steel</li>
+                        <li>Denomination: Euro Cents, Euros</li>
+                        <li>Common Years: 2002-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section W -->
+        <section id="coins-W" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'W'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Washington Quarter</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The most common 25-cent coin of the United States, featuring George Washington on the obverse. Widely collected for its various reverse designs, including State Quarters.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: United States</li>
+                        <li>Metal: Silver (.900 fine, 1932-1964), Copper-Nickel</li>
+                        <li>Denomination: 25 Cents USD</li>
+                        <li>Common Years: 1932-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section X -->
+        <section id="coins-X" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'X'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Xuanzong Kaiyuan Tongbao</h3>
+                    <p class="text-gray-300 mb-4 text-sm">An ancient Chinese cash coin issued during the Tang Dynasty (713-741 AD). These coins are significant for their standardized weight and widespread circulation.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Imperial China (Tang Dynasty)</li>
+                        <li>Metal: Bronze</li>
+                        <li>Denomination: Cash Coin</li>
+                        <li>Common Years: 713-741 AD</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Y -->
+        <section id="coins-Y" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'Y'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Yemeni Rial (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The official currency of Yemen. Rial coins are issued in various denominations, often featuring the national emblem or historical landmarks.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Yemen</li>
+                        <li>Metal: Various (e.g., Steel, Aluminum-Bronze)</li>
+                        <li>Denomination: Rials</li>
+                        <li>Common Years: 1993-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Z -->
+        <section id="coins-Z" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'Z'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Polish Złoty (Modern)</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The official currency of Poland. Złoty coins are issued in various denominations, featuring the Polish coat of arms and different national symbols.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: Poland</li>
+                        <li>Metal: Various (e.g., Cupro-Nickel, Brass, Steel)</li>
+                        <li>Denomination: Groszy, Złotych</li>
+                        <li>Common Years: 1995-Present</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 py-8 mt-12 shadow-inner border-t border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
+            <p>&copy; 2023 Global Coin Directory. All rights reserved.</p>
+            <p class="text-sm mt-2">Data provided for informational purposes only. Consult a numismatics expert for precise details and valuations.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
