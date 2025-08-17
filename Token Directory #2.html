@@ -1,0 +1,822 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Coin Directory - A-Z Index</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Optional: A simple active state for A-Z links, requires JS for scroll spy */
+        /* For static page, hover is sufficient, or could be manually applied to current letter */
+        .az-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-800 to-indigo-900 py-12 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl font-extrabold text-white mb-4 leading-tight drop-shadow-md">Token Directory</h1>
+            <p class="text-xl text-blue-200 font-light">Explore a Hand Selected A-Z list of tokens from the cryptocurrency world</p>
+        </div>
+    </header>
+
+    <!-- A-Z Navigation -->
+    <nav class="sticky top-0 bg-gray-800 py-4 shadow-xl z-10 border-b border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-3">
+                <a href="#coins-A" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">A</a>
+                <a href="#coins-B" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">B</a>
+                <a href="#coins-C" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">C</a>
+                <a href="#coins-D" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">D</a>
+                <a href="#coins-E" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">E</a>
+                <a href="#coins-F" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">F</a>
+                <a href="#coins-G" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">G</a>
+                <a href="#coins-H" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">H</a>
+                <a href="#coins-I" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">I</a>
+                <a href="#coins-J" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">J</a>
+                <a href="#coins-K" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">K</a>
+                <a href="#coins-L" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">L</a>
+                <a href="#coins-M" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">M</a>
+                <a href="#coins-N" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">N</a>
+                <a href="#coins-O" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">O</a>
+                <a href="#coins-P" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">P</a>
+                <a href="#coins-Q" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">Q</a>
+                <a href="#coins-R" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">R</a>
+                <a href="#coins-S" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">S</a>
+                <a href="#coins-T" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">T</a>
+                <a href="#coins-U" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">U</a>
+                <a href="#coins-V" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">V</a>
+                <a href="#coins-W" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">W</a>
+                <a href="#coins-X" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">X</a>
+                <a href="#coins-Y" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">Y</a>
+                <a href="#coins-Z" class="az-link block w-8 h-8 flex items-center justify-center rounded-full text-sm font-semibold bg-gray-700 hover:bg-yellow-600 hover:text-white transition-all duration-200">Z</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content - Coin Listings -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+
+        <!-- Section A -->
+
+
+        <section id="coins-A" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'A'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">AAVE</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Aave is a decentralised non-custodial liquidity protocol where users can participate as suppliers or borrowers. Suppliers provide liquidity to the market while earning interest, and borrowers can access liquidity by providing collateral that exceeds the borrowed amount.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: AAVE</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 16 Million</li>
+                        <li>Remaining: 800 Thousand</li>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">AMP</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Amp is a universal collateral token designed to facilitate fast and efficient transfers for any real-world application. When using Amp as collateral, transfers of value are guaranteed and can settle instantly</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: AMP</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 99.66 Billion</li>
+                        <li>Remaining: 15.5 Billion</li>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">APENFT</h3>
+                    <p class="text-gray-300 mb-4 text-sm">First, the sharing mechanism of the digital economy is integrated into the artwork market. Blockchain technology is able to give a second life to artworks in the digital world.Second, an art market based on trust among machines is
+established.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: NFT</li>
+                        <li>Network: Tron</li>
+                        <li>Supply: 1 Quadrillion</li>
+                        <li>Remaining:9.8 Trillion</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section B -->
+
+
+        <section id="coins-B" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'B'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Band Protocol</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Band Protocol is a cross-chain data oracle aggregating and connecting real-world data and APIs to smart contracts. The protocol is built on top of BandChain, a Cosmos SDK based chain designed to be compatible with most frameworks.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: BAND</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: Infinite</li>
+                        <li>Circulating: 164 Million</li>
+                    </ul>
+                </div>
+
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Basic Attention Token</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Brave Rewards gives you the option to view first-party, privacy-protecting ads while you browse (these ads are from the Brave Private Ads network). If you choose to view them, you earn BAT via the Brave Rewards Program.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: BAT</li>
+                        <li>Chain: Ethereum</li>
+                        <li>Supply: 1.5 Billion</li>
+                        <li>Remaining: 4.5 Million</li>
+                    </ul>
+                </div>
+
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Bittorrent</h3>
+                    <p class="text-gray-300 mb-4 text-sm"> The BitTorrent protocol enables client software endpoints (“clients”) to collaborate with each other to enable reliable simultaneous distribution of large files to multiple clients.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: BTT</li>
+                        <li>Network: Tron</li>
+                        <li>Supply: 990 Trillion</li>
+                        <li>Remaining: 4 Trillion</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Section C -->
+
+
+        <section id="coins-C" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'C'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Chainlink</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Chainlink provides essential infrastructure and the ecosystem for powering the security, data, and movement of tokenized real-world assets.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: LINK</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 1 Billion</li>
+                        <li>Remaining: 322 Million</li>
+                    </ul>
+                </div>
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Compountd</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Compound is a protocol on the Ethereum blockchain that establishes money markets, which are pools of assets with algorithmically derived interest rates, based on the supply and demand for the asset.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: COMP</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 10 Million</li>
+                        <li>Remaining: 560 Thousand</li>
+                    </ul>
+                </div>
+
+
+                
+
+
+            </div>
+        </section>
+
+
+        <!-- Section D -->
+
+
+        <section id="coins-D" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'D'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Decentraland</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Decentraland was the world’s first fully decentralized, social virtual world, empowering users to own, create, and control their digital assets and experiences.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: Mana</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 2 Billion</li>
+                        <li>Remaining: 200 Million</li>
+                    </ul>
+                </div>
+
+                
+            </div>
+        </section>
+
+
+        <!-- Section E -->
+
+
+        <section id="coins-E" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'E'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Ethena</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Ethena is a synthetic dollar protocol built on Ethereum that provides a crypto-native solution for money, USDe, alongside a globally accessible dollar savings asset, sUSDe.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: ENA</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 15 Billion</li>
+                        <li>Remaining: 8.4 Billion</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Section F -->
+
+
+        <section id="coins-F" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'F'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Send Us Your Coin</h3>
+                    <p class="text-gray-300 mb-4 text-sm">We are always looking for new projects to research and share. Just message us through email, text message, x or Discord. Thank you</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: USA</li>
+                        <li>Email: ncryptdstore@gmail.com</li>
+                        <li>Phone: 1-401-680-0381</li>
+                        <li>X: @NCRYPTDAPP</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Section G -->
+
+
+        <section id="coins-G" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'G'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Graft</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The Graph is a blockchain data solution that powers applications, analytics, and AI on 90+ chains. </p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: GRT</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 10.8 Billion</li>
+                        <li>Remaining: 400 Million</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Section H -->
+
+
+        <section id="coins-H" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'H'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Send Us Your Coin</h3>
+                    <p class="text-gray-300 mb-4 text-sm">We are always looking for new projects to research and share. Just message us through email, text message, x or Discord. Thank you</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: USA</li>
+                        <li>Email: ncryptdstore@gmail.com</li>
+                        <li>Phone: 1-401-680-0381</li>
+                        <li>X: @NCRYPTDAPP</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- Section I -->
+
+
+        <section id="coins-I" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'I'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Send Us Your Coin</h3>
+                    <p class="text-gray-300 mb-4 text-sm">We are always looking for new projects to research and share. Just message us through email, text message, x or Discord. Thank you</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: USA</li>
+                        <li>Email: ncryptdstore@gmail.com</li>
+                        <li>Phone: 1-401-680-0381</li>
+                        <li>X: @NCRYPTDAPP</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Section J -->
+
+
+        <section id="coins-J" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'J'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Jasmycoin</h3>
+                    <p class="text-gray-300 mb-4 text-sm">IoT platform
+company on a mission to provide the infrastructure which allows anybody to use data safely and securely. We are currently developing and providing the “Jasmy Platform” to achieve this.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: JASMY</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 50 Billion</li>
+                        <li>Remaining: 1.6 Billion</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- Section K -->
+
+
+        <section id="coins-K" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'K'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Kyber Network Crystal</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Kyber Network is a multi-chain crypto trading and liquidity hub that connects liquidity from different sources to enable trades at the best rates.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: KNC</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 252 Million</li>
+                        <li>Remaining: 80 Million</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- Section L -->
+
+
+        <section id="coins-L" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'L'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Livepeer</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Livepeer built the foundation for open video—powering everything from transcoding to livestreaming. Now with Daydream, we’re showcasing the fusion of breakthrough video infrastructure and generative AI: real-time creativity, unleashed.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: LPT</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 43 Million</li>
+                        <li>All Tokens Are In Circlulation</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Section M -->
+
+
+        <section id="coins-M" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'M'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+
+
+                    <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Send Us Your Coin</h3>
+                    <p class="text-gray-300 mb-4 text-sm">We are always looking for new projects to research and share. Just message us through email, text message, x or Discord. Thank you</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: USA</li>
+                        <li>Email: ncryptdstore@gmail.com</li>
+                        <li>Phone: 1-401-680-0381</li>
+                        <li>X: @NCRYPTDAPP</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- Section N -->
+
+
+        <section id="coins-N" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'N'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Nook</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The launch of NOOK was a major milestone for Bellscoin. It took an incredible 100 million transactions over six months to mint, with the community spending between 1 & 1.5 million bells in fees to make it happen.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: NOOK</li>
+                        <li>Network: Bellscoin</li>
+                        <li>Supply: 50 Quintillion</li>
+                        <li>All Tokens Are In Circlulation</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Section O -->
+
+
+        <section id="coins-O" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'O'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Onyxcoin</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Onyx is a Layer 3 blockchain designed to enhance scalability, interoperability, and economic efficiency by leveraging Arbitrum Orbit’s rollup technology, AnyTrust’s data availability model, and Base Layer 2 for settlement.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: XCN</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 48.4 Billion</li>
+                        <li>Remaining: 14 billion</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section P -->
+
+
+        <section id="coins-P" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'P'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Pancake Swap</h3>
+                    <p class="text-gray-300 mb-4 text-sm">PancakeSwap is the leading decentralized exchange on BNB Smart Chain. Pancake Swap is a noncustodial automated market maker implemented for the Ethereum
+Virtual Machine.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: CAKE</li>
+                        <li>Network: Binance</li>
+                        <li>Supply: 450 Million</li>
+                        <li>Remaining: 87 Million</li>
+                    </ul>
+                </div>
+
+
+<div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">PEPE</h3>
+                    <p class="text-gray-300 mb-4 text-sm">.$PEPE is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is completely useless and for
+entertainment purposes only.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: PEPE</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 420 Trillion</li>
+                        <li>All Tokens Are In Circlulation</li>
+                    </ul>
+                </div>
+
+
+<div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Presearch</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Presearch is building a complete ecosystem to support the PRE token and provide the world with a decentralized search engine that is powered by the community, for the community.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: PRE</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 1 Billion</li>
+                        <li>Remaining: 410 Million</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <!-- Section Q -->
+        <section id="coins-Q" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'Q'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Livepeer</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Livepeer built the foundation for open video—powering everything from transcoding to livestreaming. Now with Daydream, we’re showcasing the fusion of breakthrough video infrastructure and generative AI: real-time creativity, unleashed.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: LPT</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 43 Million</li>
+                        <li>All Tokens Are In Circlulation</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- Section R -->
+
+
+        <section id="coins-R" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'R'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Render</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The Render Network provides near real-time rendering using a decentralized GPU processing model to meet users increasing GPU compute needs — both for current 3D rendering tasks and for emerging 3D applications</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: RENDER</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 644 Million</li>
+                        <li>Remaining: 112 Million</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section S -->
+        <section id="coins-S" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'S'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Shiba Inu</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The world's first modern bullion coin, introduced in 1967.The SHIB token is built on the Ethereum blockchain, making it an ERC-20 token. Like other DeFi projects, SHIB operates on the principles of decentralization, transparency, and community governance.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: SHIB</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 589 Trillion</li>
+                        <li>All Tokens Are In Circlulation</li>
+                    </ul>
+                </div>
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Sun Token</h3>
+                    <p class="text-gray-300 mb-4 text-sm">SUN.io was founded to foster the growth of TRON’s DeFi ecosystem. Thanks to the community and open-source smart contracts, SUN.io has established ties with other DeFi projects on the TRON public chain through decentralized liquidity mining</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: SUN</li>
+                        <li>Network: Tron</li>
+                        <li>Supply: 19.9 Billion</li>
+                        <li>Remaining: 750 Million</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <!-- Section T -->
+
+
+        <section id="coins-T" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'T'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Toshi</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Toshi serves as the face and mascot of the Base blockchain. Toshi has its roots in
+traditional memecoin territory with the nascency of Base. </p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: TOSHI</li>
+                        <li>Network: Base (ETH - Layer 2)</li>
+                        <li>Supply: 420 Billion</li>
+                        <li>All Tokens Are In Circlulation</li>
+                    </ul>
+                </div>
+
+<div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Trust Wallet Token</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Trust Wallet Token (TWT) is a utility token that will be used to incentivize all Trust Wallet users. The goal of the Trust Wallet team is to make cryptocurrencies more accessible. </p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: TWT</li>
+                        <li>Network: Binance</li>
+                        <li>Supply: 1 Billion</li>
+                        <li>Remaining: 580 Million</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Section U -->
+        <section id="coins-U" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'U'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">USDC</h3>
+                    <p class="text-gray-300 mb-4 text-sm">USDC is regulated and fully reserved. Reserves are transparently held at regulated financial institutions with published monthly attestations. USDC transactions can settle in seconds worldwide.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: USDC</li>
+                        <li>Token: Multi-Chain</li>
+                        <liCurreny Supply: 68 Billion</li>
+                        <li>All Tokens Are Backed by Fiat</li>
+                    </ul>
+                </div>
+
+<div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">USDT</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Tether has
+made headway by giving customers the ability to transact with traditional currencies across a blockchain, without the inherent volatility and complexity typically associated with a digital currency.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: USDT</li>
+                        <li>Token: Multi-Chain</li>
+                        <liCurreny Supply: 166 Billion</li>
+                        <li>All Tokens Are Backed by Fiat</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Section V -->
+
+
+        <section id="coins-V" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'V'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Send Us Your Coin</h3>
+                    <p class="text-gray-300 mb-4 text-sm">We are always looking for new projects to research and share. Just message us through email, text message, x or Discord. Thank you</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: USA</li>
+                        <li>Email: ncryptdstore@gmail.com</li>
+                        <li>Phone: 1-401-680-0381</li>
+                        <li>X: @NCRYPTDAPP</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Section W -->
+
+
+        <section id="coins-W" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'W'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">WBTC</h3>
+                    <p class="text-gray-300 mb-4 text-sm">Wrapped tokens follow the centralized model, but instead of relying entirely on one institution, they rely on a consortium of institutions performing different roles in the network.</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: WBTC</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 21 Million</li>
+                        <li>Remaining: 1.1 Million</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Section X -->
+
+
+        <section id="coins-X" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'X'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">XYO Token</h3>
+                    <p class="text-gray-300 mb-4 text-sm">The goal of the XYO Network is to create a trustless, decentralized system of location oracles that is resistant to attack and produces the highest certainty possible when queried for available data</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Ticker: XYO</li>
+                        <li>Network: Ethereum</li>
+                        <li>Supply: 13.9 Billion</li>
+                        <li>All Tokens Are In Circlulation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section Y -->
+
+
+        <section id="coins-Y" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'Y'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Send Us Your Coin</h3>
+                    <p class="text-gray-300 mb-4 text-sm">We are always looking for new projects to research and share. Just message us through email, text message, x or Discord. Thank you</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: USA</li>
+                        <li>Email: ncryptdstore@gmail.com</li>
+                        <li>Phone: 1-401-680-0381</li>
+                        <li>X: @NCRYPTDAPP</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- Section Z -->
+
+
+        <section id="coins-Z" class="mb-16 pt-10 -mt-10">
+            <h2 class="text-4xl font-bold text-yellow-500 mb-8 pb-4 border-b-2 border-yellow-600">Coins starting with 'Z'</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold text-white mb-3">Send Us Your Coin</h3>
+                    <p class="text-gray-300 mb-4 text-sm">We are always looking for new projects to research and share. Just message us through email, text message, x or Discord. Thank you</p>
+                    <ul class="text-gray-400 text-xs list-disc list-inside">
+                        <li>Country: USA</li>
+                        <li>Email: ncryptdstore@gmail.com</li>
+                        <li>Phone: 1-401-680-0381</li>
+                        <li>X: @NCRYPTDAPP</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 py-8 mt-12 shadow-inner border-t border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
+            <p>&copy; 2025 NCRYPTD Nexus, Crypto Directory. All rights reserved.</p>
+            <p class="text-sm mt-2">Data provided for informational purposes only. Consult a numismatics expert for precise details and valuations.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
